@@ -1,3 +1,8 @@
+Use Role ACCOUNTADMIN;
+use warehouse COMPUTE_WH;
+use database TEST;
+use schema PUBLIC;
+
 INSERT INTO Persons (PersonID, LastName, FirstName, Address, City)
 VALUES (1, 'Wilson', 'John', '123 Main St.', 'Anytown'),
        (2, 'Smith', 'Mary', '456 Maple St.', 'Anytown'),
